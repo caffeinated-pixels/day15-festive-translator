@@ -6,4 +6,4 @@ The main task was to:
 
 - Write a function to display the correct greeting when a language is selected.
 
-I also added a text animation based on [rubberBand from animate.css](https://animate.style/) and few extra languages, including Canadian and Australian 😁
+I also added a text animation based on [rubberBand from animate.css](https://animate.style/) and a few extra languages, including Canadian and Australian 😁
