@@ -9,6 +9,18 @@ const greetingsArr = [
     greeting: 'Merry Christmas!',
   },
   {
+    language: 'Canadian',
+    greeting: 'Happy Holidays, eh!',
+  },
+  {
+    language: 'Australian',
+    greeting: 'Bonza Christmas, mate!',
+  },
+  {
+    language: 'French',
+    greeting: 'Joyeux Noël!',
+  },
+  {
     language: 'Spanish',
     greeting: 'Feliz Navidad!',
   },
