@@ -21,10 +21,16 @@ const greetingsArr = [
   },
 ]
 
-function translate() {
-  // Task:
-  // - Write a function to display the correct greeting when a language is selected.
+function translate(e) {
+  const inputLanguage = e.target.value
+  const greetingIndex = greetingsArr.findIndex(
+    (obj) => obj.language === inputLanguage
+  )
+  greetingDisplay.textContent = greetingsArr[greetingIndex].greeting
 }
+
+// Task:
+// - Write a function to display the correct greeting when a language is selected.
 
 // Stretch goals:
 // - Animate the message switch.
