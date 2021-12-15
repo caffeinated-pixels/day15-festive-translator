@@ -10,11 +10,11 @@ const greetingsArr = [
   },
   {
     language: 'Canadian',
-    greeting: 'Happy Holidays, eh!',
+    greeting: 'Pitter patter Christmas is coming at er, eh!',
   },
   {
     language: 'Australian',
-    greeting: 'Bonza Christmas, mate!',
+    greeting: 'Bonza Christmas, put another shrimp on the barbie mate!',
   },
   {
     language: 'French',
