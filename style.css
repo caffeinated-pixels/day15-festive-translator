@@ -48,6 +48,17 @@ h1 {
 .greeting-text {
   color: var(--snow);
   font-size: 30px;
+  animation: textAnim 1s;
+}
+
+@keyframes textAnim {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 select {

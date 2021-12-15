@@ -1,4 +1,5 @@
 const languageSelector = document.getElementById('language-selector')
+const greetingContainer = document.getElementById('greeting-container')
 const greetingDisplay = document.getElementById('greeting-text')
 languageSelector.addEventListener('change', translate)
 
@@ -26,7 +27,13 @@ function translate(e) {
   const greetingIndex = greetingsArr.findIndex(
     (obj) => obj.language === inputLanguage
   )
-  greetingDisplay.textContent = greetingsArr[greetingIndex].greeting
+
+  greetingContainer.textContent = ''
+  const greetingText = document.createElement('div')
+  greetingText.id = 'greeting-text'
+  greetingText.className = 'greeting-text'
+  greetingText.textContent = greetingsArr[greetingIndex].greeting
+  greetingContainer.appendChild(greetingText)
 }
 
 // Task:
